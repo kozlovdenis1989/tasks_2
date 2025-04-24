@@ -11,7 +11,7 @@ services:
     depends_on:
       - db
     environment:
-      DB_HOST: db           # совпадает с default в python
+      DB_HOST: db           
       DB_USER: ${DB_USER}
       DB_PASS: ${DB_PASS}
       DB_NAME: ${DB_NAME}
